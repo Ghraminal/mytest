@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		box-sizing: border-box;
+	}
+	section{
+		width: 100%;
+		height: calc(100vh - 170px);
+		background-color: lightgray;
+	}
+	h1{
+		justify-content: center;
+		text-align: center;
+		padding: 10px;
+	}
+</style>
+</head>
+<body>
+<header>
+<jsp:forward page="header.jsp"></jsp:forward>
+<h1>인덱스 메뉴</h1>
+<jsp:forward page="footer.jsp"></jsp:forward>
+</header>
+
+</body>
+</html>

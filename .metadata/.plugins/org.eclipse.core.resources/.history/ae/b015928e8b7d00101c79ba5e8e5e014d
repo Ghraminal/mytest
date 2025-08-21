@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%
+  request.setCharacterEncoding("UTF-8"); // 한글 깨짐 방지
+
+  String car_number = request.getParameter("car_number");
+  String owner_name = request.getParameter("owner_name");
+  String location = request.getParameter("location");
+  String email = request.getParameter("email");
+
+  // 데이터 처리 로직 (예: 데이터베이스 저장, 다른 페이지로 이동 등)
+  out.println("이름: " + name + "<br>");
+  out.println("이메일: " + email + "<br>");
+%>
+<body>
+<jsp:forward page="index.jsp"></jsp:forward>
+</body>

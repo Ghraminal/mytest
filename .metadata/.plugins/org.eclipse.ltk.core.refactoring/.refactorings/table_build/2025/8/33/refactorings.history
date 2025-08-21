@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;table_build/src/main/webapp/enter_name.sql&apos; to &apos;Hotel.sql&apos;" description="Rename resource &apos;enter_name.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/enter_name.sql" name="Hotel.sql" stamp="1754875292217" updateReferences="true"/>
+</session>

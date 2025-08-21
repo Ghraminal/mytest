@@ -1,0 +1,3 @@
+function check(){
+	if(document.frm.car_number.value == "")
+}

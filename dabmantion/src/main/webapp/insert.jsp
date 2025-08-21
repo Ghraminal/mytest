@@ -32,7 +32,7 @@
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="nav.jsp"></jsp:include>
 	<section>
-		<h2> 맨션예약 </h2>
+		<h2> 댑맨션예약 </h2>
 		<form name="frm" method="post" action="insert">
 			<table border="1">
 				<tr>

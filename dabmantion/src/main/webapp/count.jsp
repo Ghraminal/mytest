@@ -41,7 +41,7 @@ li {
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="nav.jsp"></jsp:include>
 	<section>
-		<h2>체류 일수 목록</h2>
+		<h2>숙박객 체류 일수</h2>
 		<div>
 
 			<table border="1">

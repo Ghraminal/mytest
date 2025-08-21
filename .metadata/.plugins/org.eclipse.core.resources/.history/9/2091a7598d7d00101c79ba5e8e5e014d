@@ -1,0 +1,41 @@
+<%@page import="java.sql.PreparedStatement"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@include file="db.jsp" %>
+<%
+	request.setCharacterEncoding("utf-8");
+	
+	String car_number = request.getParameter("car_number");
+	String owner_name = request.getParameter("owner_name");
+	String location = request.getParameter("location");
+	String entrance_time = request.getParameter("entrance_time");
+	
+	 /* System.out.println(resvno);
+	System.out.println(emptno);
+	System.out.println(resvdate);
+	System.out.println(seatno); */ 
+
+	
+	PreparedStatement pstmt = null;
+	Connection con = null;
+	
+	try{
+		String sql = "INSERT c. " +
+				"INTO tbl_resv_2504 " +
+				"values(?, ?, ?, ?)";
+		pstmt = con.prepareStatement(sql);
+		
+		pstmt.setString(1, resvno);
+		pstmt.setString(2, emptno);
+		pstmt.setString(3, resvdate);
+		pstmt.setString(4, entrance_time);
+		
+		pstmt.executeUpdate();
+		
+		response.sendRedirect("index.jsp");
+		
+	}catch(Exception e){
+		e.printStackTrace();
+	}
+	
+%>

@@ -1,0 +1,5 @@
+function check(){
+	if(document.frm.car_number.value == ""){
+		alert("차 번호가 입력되지 않았습니다.")
+	}
+}

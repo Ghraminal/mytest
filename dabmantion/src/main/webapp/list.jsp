@@ -41,7 +41,7 @@ li {
 	<jsp:include page="header.jsp"></jsp:include>
 	<jsp:include page="nav.jsp"></jsp:include>
 	<section>
-		<h2>예약 정보 목록</h2>
+		<h2>맨션예약 정보 목록</h2>
 		<div>
 
 			<table border="1">

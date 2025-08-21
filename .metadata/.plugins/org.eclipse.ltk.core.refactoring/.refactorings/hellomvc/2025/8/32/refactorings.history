@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;helloMVC.java&apos; to &apos;helloDAO/src/main/java/controller&apos;&#x0D;&#x0A;- Original project: &apos;hellomvc&apos;&#x0D;&#x0A;- Destination element: &apos;helloDAO/src/main/java/controller&apos;&#x0D;&#x0A;- Original element: &apos;controller.helloMVC.java&apos;" description="Copy compilation unit" destination="=helloDAO/src\/main\/java&lt;controller" element1="/src\/main\/java&lt;controller{helloMVC.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1754528410711" units="1" version="1.0"/>
-</session>
